@@ -1,0 +1,35 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgba(136, 136, 136, 0.5);
+    margin-right: 12px;
+}
+
+.user {
+    padding: 9px 16px;
+    display: flex;
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: bisque;
+}
+
+.user-name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 400;
+}
+
+.tick-icon {
+    margin-left: 10px;
+}

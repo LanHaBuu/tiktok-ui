@@ -1,0 +1,49 @@
+.menu-wrapper {
+    margin-bottom: 8px;
+}
+
+.menu-result {
+    width: 223px;
+    padding: 8px 0;
+    margin-top: 0;
+}
+
+.button-menu {
+    padding: 12px 16px;
+    width: 100%;
+    justify-content: flex-start;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.button-menu:hover {
+    background-color: bisque;
+}
+
+.menu-header {
+    height: 50px;
+    position: relative;
+    margin-top: -8px;
+}
+
+.menu-header-btn {
+    margin-left: 28px;
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu-header-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.separate {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
